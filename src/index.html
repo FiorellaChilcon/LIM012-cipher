@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>CITALK</h1>
+    <h2>Envia mensajes confidenciales o privados, con CITALK, deshazte de infiltrados</h2>
+    <section>
+      <h3>CÓMO FUNCIONA?</h3>
+      <div id="instrucciones">
+        <ul>
+          <li class="order">1</li>
+          <li class="guia">Ingresa en el primer recuadro el mensaje que quieres cifrar o descifrar</li>
+        </ul>
+        <ul>
+          <li class="order">2</li>
+          <li class="guia">Inserta el N° por el que se desplazaran las letras</li>
+        </ul>
+        <ul>
+          <li class="order">3</li>
+          <li class="guia">Presiona &#x27AE y Listo!, tu resultado estará al lado</li>
+        </ul>
+      </div>
+    </section>
+    <a href="#main">COMENZAR</a>
+  </header>
+  <main id="main">
+    <div id="div1">
+      <p>MENSAJE</p>
+      <input type="number" id="numberSelected" placeholder="N°">
+      <p>CIFRADO</p>
+    </div>
+    <form name="textform">
+      <textarea name="block" id="first" cols="30" rows="10"></textarea>
+      <button id="change">&#x21C4 </button>
+      <textarea name="block" id="second" cols="30" rows="10"></textarea>
+    </form>
+    <div id="div2">
+      <button id="clear" type="button">&#x27F3</button>
+      <button id="show1" type="button">&#x27AE</button>
+      <button id="show2" type="button">&#x27AE </button>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

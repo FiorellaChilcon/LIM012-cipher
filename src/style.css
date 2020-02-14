@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid white 1px; */
+    }
+    header{
+        /* border: solid white 1px; */
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    h1{
+    font-size: 60px;
+    color:#07E7A3;
+    text-align: center;
+    /* border: solid white 1px; */
+    margin: 0%;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        width: 275px;
+        height: 50px;
+        font-weight: normal;
+        margin: 0%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section{
+        background-color: #0CAA7B;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 300px;
+        width: 1200px;
+        margin-top: 50px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            margin: 25px;
+        }
+ .guia{
+        font-size: 19px;
+        color: white;
+        width: 153px;
+        height: 114px;
+        padding: 22px;
+        padding-left: auto;
+        padding-right: auto;
+        line-height: 25px;
+        }
+.order{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    width: 28px;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+h3{
+        text-align: center;
+        font-size: 21px;
+        display: inline;
+        margin: 0px;
+        }
+#instrucciones{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        height: 160px;
+        }
+a {
+         text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #0CC88F;
+        font-size: 18px;
+        border-radius: 12px;
+        background: #2B2C2C;
+        border-color: #2B2C2C;
+        margin-top: 10px;
+        width: 98px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+ main{
+         /* border: solid white 1px;  */
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 1000px;
+        height: 640px;
+        line-height: 15vh;
+        } 
+#div1{
+         display: inline-flex;
+         /* border: solid white 1px; */
+        }
+#div1 p {
+        /* border: solid white 1px; */
+        color: white;
+        width: 430px;
+        padding-left: 4px;
+        padding-bottom: 20px;
+        height: 60px;
+        margin-bottom: 3px;
+        }        
+input{
+         width: 10vh;
+        height: 6vh;
+        font-size: 5vh;
+        text-align: center;
+        border: solid yellow 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 42px;
+        }
+form {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        } 
+textarea{
+    display: block;
+    width: 430px;
+    height: 300px;
+    font-size: 3vh;
+    
+    }
+    #change {
+        background-color: yellow;
+        border-radius: 20px;
+        border: solid yellow 1px;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+        #div2{
+            display: inline-flex;
+            justify-content: space-between;
+            /* border: solid white 1px; */
+             padding: 10px;
+             width: 110px;
+             margin-left: 304px;
+            }
+    button {
+        width: 7vh;
+        height: 6vh;
+        font-size: 4vh;
+        text-align: center;
+    }
+    #show1 {
+        background-color: red;
+        color: white;
+        border: none;
+        }
+    #show2{
+    display: none;
+    background-color: red;
+    color: white;
+    border: none;
+    }
+    #clear {
+        background-color:rgb(50, 136, 248);
+        color: white;
+        border: none;
+        }
