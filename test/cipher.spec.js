@@ -33,15 +33,9 @@ describe('cipher', () => {
     // it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () => {
     //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     // });
-
-    // Hacker edition
-    //
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
-    //
-    // it('debería retornar " !@" para " !@"', () => {
-    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
-    // });
+     it('debería retornar " !@" para " !@"', () => {
+       expect(cipher.encode(33, ' !@')).toBe(' !@');
+     });
   });
 
   describe('cipher.decode', () => {
@@ -70,15 +64,9 @@ describe('cipher', () => {
     // it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
     //   expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
     // });
-
-    // Hacker edition
-    //
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
-    //
-    // it('debería retornar " !@" para " !@"', () => {
-    //   expect(cipher.decode(33, ' !@')).toBe(' !@');
-    // });
+     it('debería retornar " !@" para " !@"', () => {
+      expect(cipher.decode(33, ' !@')).toBe(' !@');
+     });
   });
 
 });
