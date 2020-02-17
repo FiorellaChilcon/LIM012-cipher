@@ -128,7 +128,7 @@ input{
         margin-right: auto;
         margin-top: 42px;
         }
-form {
+#container{
         display: flex;
         align-content: center;
         justify-content: space-between;
@@ -138,7 +138,6 @@ textarea{
     width: 430px;
     height: 300px;
     font-size: 3vh;
-    
     }
     #change {
         background-color: yellow;
