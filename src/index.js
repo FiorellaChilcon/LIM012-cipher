@@ -34,7 +34,6 @@ const second = document.getElementById("second");
 show1.addEventListener("click", () => {
    const numero = document.getElementById("numberSelected").value;
    const cadena = document.getElementById("first").value;
-
    second.value = cipher.encode(numero, cadena);
 });
 
