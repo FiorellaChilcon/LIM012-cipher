@@ -4,7 +4,7 @@ Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, medi
 
 ![Sin titulo](IMAGEN FINAL PROYECTO.png)
 ![Sin titulo](/Imagenes/IMAGEN FINAL PROYECTO 2.png)
-![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO.png)
+![Sin titulo](\Imagenes\IMAGEN FINAL PROYECTO.png)
 ![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO 2.png)
                                              Imagenes\IMAGEN FINAL PROYECTO.png
                                              Imagenes\IMAGEN FINAL PROYECTO 2.png
