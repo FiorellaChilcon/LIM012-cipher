@@ -3,7 +3,7 @@
 Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, mediante un traductor indicando un desplazamiento específico de carácteres (_offset_), con la finalidad de brindar habla confidencialidad o privada y evitar infiltrados.
 
 ![Sin titulo](IMAGEN FINAL PROYECTO.png)
-![alt_text](Imagenes/IMAGEN FINAL PROYECTO 2.png)
+![alt_text](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/IMAGEN%20FINAL%20PROYECTO.png)
 ![Sin titulo](\Imagenes\IMAGEN FINAL PROYECTO.png)
 ![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO 2.png)
                                              Imagenes\IMAGEN FINAL PROYECTO.png
