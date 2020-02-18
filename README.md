@@ -14,8 +14,8 @@ Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, medi
  ![prototipado en papel](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/PROTOTIPO%20EN%20PAPEL.jpeg)
                                     
  4. feedback: transmitir mejor las instrucciones de como usar el producto y cambiar la posición de los botones para no ser confundidos con el orden de las indicaciones brindadas.
- 5. ----------------------------------------------------Imagen del prototipo final.----------------------------------------
-                                                        Imagenes\PROTOTIPADO.png
+ 5.
+ ![prototipado final](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/PROTOTIPADO.png)
 
  * Plan de Acción:
 
