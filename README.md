@@ -2,12 +2,9 @@
 
 Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, mediante un traductor indicando un desplazamiento específico de carácteres (_offset_), con la finalidad de brindar habla confidencialidad o privada y evitar infiltrados.
 
-![Sin titulo](IMAGEN FINAL PROYECTO.png)
-![alt_text](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/IMAGEN%20FINAL%20PROYECTO.png)
-![Sin titulo](\Imagenes\IMAGEN FINAL PROYECTO.png)
-![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO 2.png)
-                                             Imagenes\IMAGEN FINAL PROYECTO.png
-                                             Imagenes\IMAGEN FINAL PROYECTO 2.png
+![proyecto final](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/IMAGEN%20FINAL%20PROYECTO.png)
+![proyecto final 2](https://github.com/fiorellaCS01/LIM012-cipher/blob/master/Imagenes/IMAGEN%20FINAL%20PROYECTO%202.png)
+
 * Investigación UX:
 
  1. Dirigido principalmente a empresas y/u organizaciones a las que se les es indispensable la mensajeria secreta, y al público en general que lidia con la invasión a la privacidad.
