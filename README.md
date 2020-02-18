@@ -3,8 +3,8 @@
 Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, mediante un traductor indicando un desplazamiento específico de carácteres (_offset_), con la finalidad de brindar habla confidencialidad o privada y evitar infiltrados.
 
 ----------------------------------------------La imagen final de tu proyecto---------------------------------------------------
-![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO.png)
-![Sin titulo](Imagenes\IMAGEN FINAL PROYECTO 2.png)
+![Sin titulo](Imagenes/IMAGEN FINAL PROYECTO.png)
+![Sin titulo](Imagenes/IMAGEN FINAL PROYECTO 2.png)
                                              Imagenes\IMAGEN FINAL PROYECTO.png
                                              Imagenes\IMAGEN FINAL PROYECTO 2.png
 * Investigación UX:
