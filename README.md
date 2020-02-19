@@ -19,10 +19,10 @@ Aplicacion web que le permitira a los usuarios cifrar y descifrar mensajes, medi
 
  * Plan de Acción:
 
-  - Aprender sobre charCodeAt()
-  - Aprender sobre String.fromCharCode()
-  - Investigar sobre ASCII
-  - Utilizar ES Modules (import | export)
-  - Utilizar Github y Gitbash
-  - Uso de linter (ESLINT).
-  - Entender sobre los test unitarios, que es NPM y Node.js
+  \- Aprender sobre charCodeAt()
+  \- Aprender sobre String.fromCharCode()
+  \- Investigar sobre ASCII
+  \- Utilizar ES Modules (import | export)
+  \- Utilizar Github y Gitbash
+  \- Uso de linter (ESLINT).
+  \- Entender sobre los test unitarios, que es NPM y Node.js

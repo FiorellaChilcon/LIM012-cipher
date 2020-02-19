@@ -17,7 +17,7 @@ const changeIt = () => {
    } else {
       show1.style.display = "flex";
       show2.style.display = "none";
-      change.style.backgroundColor = "yellow";
+      change.style.backgroundColor = "#E71919";
       option1.innerHTML = "MENSAJE",
          option2.innerHTML = "CIFRADO";
    }
