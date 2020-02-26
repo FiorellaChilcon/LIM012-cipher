@@ -105,11 +105,10 @@ a {
          align-items: baseline;
         }
 #div1 p {
-    /* border: solid rgb(26, 253, 6); */
+        /* border: solid rgb(26, 253, 6);  */
         color: #8CE0BD;
-        font-size: 125%;
-        padding: auto;
-        margin-bottom: 2%;
+        font-size: 3vh;
+        margin-bottom: 3vh;
         
         }        
 input{
@@ -118,6 +117,7 @@ input{
         font-size: 5vh;
         border-radius: 6vh;
         border-color: white;
+        text-align: center;
         }
         input::-webkit-inner-spin-button,
         input::-webkit-outer-spin-button{
@@ -155,6 +155,12 @@ textarea{
         margin-top: auto;
         margin-bottom: auto;
         }
+    .myStyle{
+        background-color: #45FF16;
+    }
+    .disappear{
+        display: none;
+    }
         #div2{
             /* border: solid rgb(255, 0, 85); */
             display: inline-flex;
@@ -177,7 +183,6 @@ textarea{
         border: none;
         }
     #show2{
-    display: none;
     background-color: #0DCB92;
     border: none;
     }
