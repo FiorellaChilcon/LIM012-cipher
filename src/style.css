@@ -4,7 +4,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 195vh;
+    height: 200vh;
     }
     header{
         /* border: solid rgb(255, 0, 0);   */
@@ -89,9 +89,7 @@ a {
         width: 18vh;
         }
  main{
-    /* border: solid white; */
-        display: flex;
-        flex-direction: column;
+        border: solid white; 
         align-content: center;
         justify-content: center; 
         margin-top: 18vh;
@@ -99,13 +97,13 @@ a {
         height:80vh;
         } 
 #div1{
-         /* border: solid rgb(255, 11, 11); */
+         /* border: solid rgb(255, 11, 11);  */
          display: inline-flex;
          justify-content: space-around;
-         align-items: baseline;
+         align-items: baseline; 
         }
 #div1 p {
-        /* border: solid rgb(26, 253, 6);  */
+        /* border: solid rgb(26, 253, 6);   */
         color: #8CE0BD;
         font-size: 3vh;
         margin-bottom: 3vh;
@@ -190,7 +188,160 @@ textarea{
         background-color:#DDE111;
         border: none;
         }
-    @media screen and (min-width:780px) and (max-width:1040px){
 
-
+        @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      body{
+          height: 480vh;
+          width: 132vh;
+         /* border: solid wheat;  */
+      }
+      header{
+          /* border: solid rebeccapurple; */
+          height: 230vh;
+          width: 125vh;
+          margin: 0vh;
+      }
+      h1{
+          /* border: solid powderblue; */
+          font-size: 10vh;
+          margin-top: 1.5vh;
+      }
+      h2{
+        font-size: 4.5vh;
+        width: 83vh;
     }
+      section{
+          margin-top: 6vh;
+          width: 120vh;
+          height: 170vh;
+          padding: 0vh;
+          align-items: center;
+      }
+      h3{
+          /* border: solid brown; */
+          font-size: 5vh;
+      }
+      .line{
+          width: 110vh;
+          border: solid rgb(27, 27, 27);
+          
+      }
+    #instrucciones{
+        /* border: solid rgb(233, 255, 39); */
+        display: flex;
+        width: 110vh;
+        height: 140vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        /* border: solid pink; */
+        width: 80vh;
+        height: 41vh;
+        justify-content: space-evenly;
+    }
+    .guia{
+        /* border: solid skyblue; */
+        width: 60vh;
+        font-size: 6vh;
+        line-height: 8vh;
+        padding-top: 12vh;
+        color: rgb(255, 255, 255);
+    }
+    .order{
+        margin-top: 15vh;
+        font-size: 5vh;
+        border-radius:10h;
+        width: 8vh;
+        height: 8vh;
+        line-height: 9vh;
+        
+    }
+    ul:first-child .guia{
+         padding-top: 8vh;
+    }
+    a {
+       padding: 4vh;
+       font-size: 4vh;
+       width: 35vh;
+       }
+
+
+
+
+       main{
+        border: solid white; 
+            margin-top: 18vh;
+            width: 120vh;
+            height:220vh;
+            } 
+    #div1{
+             /* border: solid rgb(255, 11, 11);  */
+             width: 118vh;
+             height: 20vh;
+            }
+    #div1 p {
+            /* border: solid rgb(26, 253, 6);   */
+            font-size: 6vh;
+            margin-bottom: 3vh;
+            
+            }        
+    input{
+             width: 10vh;
+             height: 10vh;
+            font-size: 7vh;
+            border-radius: 8vh;
+            }
+            input::placeholder{
+                font-size: 7vh;
+            }
+    #container{
+            /* border: solid rgb(255, 0, 242);  */
+            flex-direction: column;
+            position: absolute;
+            width: 118vh;
+            align-items: center;
+            height: 170vh;
+            }
+            form{
+                /* border: solid rgb(140, 0, 255);  */
+                height:200vh;
+                width: 118vh;
+            }
+    textarea{
+        width: 105vh;
+        font-size: 6vh;
+        height:65vh;
+        }
+        textarea::placeholder{
+            font-size: 5vh;
+        }
+        #change {
+            border-radius: 8vh;
+            font-size: 6vh;
+            width: 11vh;
+            height: 11vh;
+            }
+            #div2{
+                /* border: solid rgb(255, 0, 85);   */
+                position: relative;
+                margin-top: 78.5vh;
+                width: 33vh;
+                margin-left: 8vh;
+                 
+                }
+        button {
+            width: 12vh;
+            height: 10vh;
+            font-size: 8vh;
+            border-radius: 5vh;
+
+}
+}
+        
+  
+  
