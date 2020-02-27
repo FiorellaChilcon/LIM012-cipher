@@ -190,7 +190,7 @@ textarea{
         }
 
         @media only screen 
-  and (min-device-width: 414px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
@@ -270,11 +270,8 @@ textarea{
        width: 35vh;
        }
 
-
-
-
-       main{
-        border: solid white; 
+    main{
+            border: solid white; 
             margin-top: 18vh;
             width: 120vh;
             height:220vh;
