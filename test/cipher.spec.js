@@ -3,13 +3,11 @@
 import cipher from '../src/cipher';
 
 describe('cipher', () => {
-
   it('cipher debería ser un objeto', () => {
     expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
-
     it('debería ser una función', () => {
       expect(typeof cipher.encode).toBe('function');
     });
@@ -33,13 +31,11 @@ describe('cipher', () => {
   });
 
   describe('cipher.decode', () => {
-
     it('debería ser una function', () => {
       expect(typeof cipher.decode).toBe('function');
     });
 
     it('debería arrojar TypeError cuando se invoca con tipos de argumento incorrectos', () => {
-
       expect(() => cipher.decode()).toThrow(TypeError);
       expect(() => cipher.decode(0)).toThrow(TypeError);
       expect(() => cipher.encode(null, [])).toThrow(TypeError);
@@ -56,5 +52,4 @@ describe('cipher', () => {
       expect(cipher.decode(33, ' !@')).toBe(' !@');
     });
   });
-
 });

@@ -4,7 +4,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+    height: 195vh;
     }
     header{
         /* border: solid rgb(255, 0, 0);   */
@@ -12,7 +12,6 @@ body{
         align-items: center;
         flex-direction: column;
         width: 200vh;
-        height: 200vh;
     }
     h1{
     /* border: solid white;   */
@@ -89,18 +88,17 @@ a {
         width: 18vh;
         }
  main{
-        border: solid white; 
-        align-content: center;
-        justify-content: center; 
-        margin-top: 18vh;
+        /* border: solid white;  */
         width: 150vh;
-        height:80vh;
+        margin-top: auto;
+        margin-bottom: auto;
         } 
 #div1{
-         /* border: solid rgb(255, 11, 11);  */
+         /* border: solid rgb(255, 11, 11);   */
          display: inline-flex;
          justify-content: space-around;
          align-items: baseline; 
+         width: 149vh;
         }
 #div1 p {
         /* border: solid rgb(26, 253, 6);   */
@@ -127,15 +125,15 @@ input{
             font-size: 4vh;
         }
 #container{
-    /* border: solid rgb(255, 0, 242); */
+    /* border: solid rgb(255, 0, 242);  */
         display: flex;
         align-content: center;
         justify-content: space-between;
         height: 45vh;
         } 
         form{
-            /* border: solid rgb(140, 0, 255); */
-            height: 150vh;
+            /* border: solid rgb(140, 0, 255);  */
+            height: 60vh;
         }
 textarea{
     display: block;
@@ -160,7 +158,7 @@ textarea{
         display: none;
     }
         #div2{
-            /* border: solid rgb(255, 0, 85); */
+            /* border: solid rgb(255, 0, 85);  */
             display: inline-flex;
             justify-content: space-between;
              padding: 10px;
@@ -269,12 +267,8 @@ textarea{
        font-size: 4vh;
        width: 35vh;
        }
-
-
-
-
-       main{
-        border: solid white; 
+    main{
+        /* border: solid white;  */
             margin-top: 18vh;
             width: 120vh;
             height:220vh;
