@@ -7,51 +7,45 @@ body{
     height: 195vh;
     }
     header{
-        /* border: solid rgb(255, 0, 0);   */
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 200vh;
+        width: 100vw;
     }
     h1{
-    /* border: solid white;   */
     font-size: 8vh;
     color:#07E7A3;
     text-align: center;
     margin-bottom: 1vh;
     }
     h2{
-        /* border: solid white;  */
         text-align: center;
         color: white;
         font-size: 2.5vh;
-        width: 46vh;
+        width: 30vw;
         font-weight: normal;
         padding: 1vh;
         margin-top: 1vh;
       
     }
     section{
-         /* border: solid white;  */
         background-color: #0CAA7B;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 180vh;
+        width: 90vw;
         margin-top: 4vh;
         padding: 2vh;
         }
         ul{
-           /* border: solid rgb(208, 255, 0);    */
             list-style: none;
             display: flex;
-            width: 48vh;
+            width: 23vw;
         }
  .guia{
-        /* border: solid white;  */
         font-size: 3.5vh;
         color: white;
-        width: 30vh;
+        width: 15vw;
         padding: 3vh;
         line-height: 5vh;
         }
@@ -59,7 +53,7 @@ body{
      background-color: black; 
     color: white;
     border-radius:8vh;
-    width: 5vh;
+    width: 2.3vw;
     height: 5vh;
     text-align: center;
     line-height: 5vh;
@@ -67,10 +61,9 @@ body{
     
 }
 h3{
-     /* border: solid white;  */
-        text-align: center;
-        font-size: 3.5vh;
-        }
+    text-align: center;
+    font-size: 3.5vh;
+  }
 #instrucciones{
         display: flex;
         justify-content: center;
@@ -88,20 +81,17 @@ a {
         width: 18vh;
         }
  main{
-        /* border: solid white;  */
         width: 150vh;
         margin-top: auto;
         margin-bottom: auto;
         } 
 #div1{
-         /* border: solid rgb(255, 11, 11);   */
          display: inline-flex;
          justify-content: space-around;
          align-items: baseline; 
          width: 149vh;
         }
 #div1 p {
-        /* border: solid rgb(26, 253, 6);   */
         color: #8CE0BD;
         font-size: 3vh;
         margin-bottom: 3vh;
@@ -125,14 +115,12 @@ input{
             font-size: 4vh;
         }
 #container{
-    /* border: solid rgb(255, 0, 242);  */
         display: flex;
         align-content: center;
         justify-content: space-between;
         height: 45vh;
         } 
         form{
-            /* border: solid rgb(140, 0, 255);  */
             height: 60vh;
         }
 textarea{
@@ -150,15 +138,8 @@ textarea{
         border: solid #C92D2D;
         margin-top: auto;
         margin-bottom: auto;
-        }
-    .myStyle{
-        background-color: #45FF16;
-    }
-    .disappear{
-        display: none;
-    }
-        #div2{
-            /* border: solid rgb(255, 0, 85);  */
+        }  
+         #div2{
             display: inline-flex;
             justify-content: space-between;
              padding: 10px;
@@ -189,147 +170,123 @@ textarea{
 
 @media (min-width: 320px) and (max-width: 700px) { 
       body{
-          height: 480vh;
-          width: 132vh;
-         /* border: solid wheat;  */
+          height: 300vh;
+          width: 100vw;
+         margin: 0;
       }
       header{
-          /* border: solid rebeccapurple; */
           height: 230vh;
-          width: 125vh;
+          width: 90vw;
           margin: 0vh;
       }
       h1{
-          /* border: solid powderblue; */
-          font-size: 10vh;
-          margin-top: 1.5vh;
+          font-size: 5vh;
+          margin-top: 2vh;
       }
       h2{
-        font-size: 4.5vh;
-        width: 83vh;
+        font-size: 4.5vw;
+        width: 70vw;
     }
       section{
           margin-top: 6vh;
-          width: 120vh;
-          height: 170vh;
+          width: 95vw;
+          height: 110vh;
           padding: 0vh;
           align-items: center;
       }
       h3{
-          /* border: solid brown; */
-          font-size: 5vh;
+          font-size: 3vh;
       }
       .line{
-          width: 110vh;
+          width: 50vw;
           border: solid rgb(27, 27, 27);
-          
+          margin: 0;
       }
     #instrucciones{
-        /* border: solid rgb(233, 255, 39); */
         display: flex;
-        width: 110vh;
+        width: 100vw;
         height: 140vh;
         flex-direction: column;
         align-items: center;
     }
     ul{
-        /* border: solid pink; */
-        width: 80vh;
-        height: 41vh;
-        justify-content: space-evenly;
+        width: 70vw;
+        height: 25vh;
+        justify-content: space-around;
     }
     .guia{
-        /* border: solid skyblue; */
-        width: 60vh;
-        font-size: 6vh;
-        line-height: 8vh;
-        padding-top: 12vh;
+        width: 60vw;
+        font-size: 6vw;
+        line-height: 5vh;
         color: rgb(255, 255, 255);
     }
     .order{
-        margin-top: 15vh;
-        font-size: 5vh;
+        margin-top: 10vh;
+        font-size: 3vh;
         border-radius:10h;
-        width: 8vh;
-        height: 8vh;
-        line-height: 9vh;
-        
-    }
-    ul:first-child .guia{
-         padding-top: 8vh;
+        width: 10vw;
+        height: 5vh;
+        line-height: 5vh;
     }
     a {
-       padding: 4vh;
-       font-size: 4vh;
-       width: 35vh;
+       padding: 2vh;
+       font-size: 2.5vh;
+       width:20vh;
        }
     main{
-        /* border: solid white;  */
-            margin-top: 18vh;
-            width: 120vh;
-            height:220vh;
-            } 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100vw;
+        height:160vh;
+        } 
     #div1{
-             /* border: solid rgb(255, 11, 11);  */
-             width: 118vh;
-             height: 20vh;
+             width: 100vw;
+             height: 10vh;
             }
-    #div1 p {
-            /* border: solid rgb(26, 253, 6);   */
-            font-size: 6vh;
+    #div1 p {  
+            font-size: 3vh;
             margin-bottom: 3vh;
-            
             }        
     input{
-             width: 10vh;
-             height: 10vh;
-            font-size: 7vh;
-            border-radius: 8vh;
+             width: 10vw;
+             height: 5vh;
+            font-size: 3vh;
             }
             input::placeholder{
-                font-size: 7vh;
+                font-size: 3vh;
             }
     #container{
-            /* border: solid rgb(255, 0, 242);  */
             flex-direction: column;
             position: absolute;
-            width: 118vh;
+            width: 100vw;
             align-items: center;
-            height: 170vh;
+            height: 110vh;
             }
             form{
-                /* border: solid rgb(140, 0, 255);  */
-                height:200vh;
-                width: 118vh;
+                height:120vh;
+                width: 100vw;
             }
     textarea{
-        width: 105vh;
+        width: 90vw;
         font-size: 6vh;
-        height:65vh;
+        height:40vh;
         }
         textarea::placeholder{
-            font-size: 5vh;
+            font-size: 3vh;
         }
-        #change {
-            border-radius: 8vh;
-            font-size: 6vh;
-            width: 11vh;
-            height: 11vh;
-            }
             #div2{
-                /* border: solid rgb(255, 0, 85);   */
                 position: relative;
-                margin-top: 78.5vh;
+                margin-top: 50vh;
                 width: 33vh;
-                margin-left: 8vh;
+                margin-left: 9.5vh;
                  
                 }
         button {
-            width: 12vh;
-            height: 10vh;
-            font-size: 8vh;
+            width: 7vh;
+            height: 6vh;
+            font-size: 4vh;
             border-radius: 5vh;
-
 }
 }
         
